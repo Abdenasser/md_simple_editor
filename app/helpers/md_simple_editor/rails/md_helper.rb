@@ -9,7 +9,7 @@ module MdSimpleEditor
           content_tag(:div, :class => 'btn-toolbar', role: 'toolbar') do
             header_tags + text_tools + link_and_image_tools +
                 content_tag(:div, class: 'btn-group pull-righ') do
-                  button_tag(:type => 'button', :class => "#{@md_builder.default_class} btn-primary preview_md") do
+                  button_tag(:type => 'button', :class => "#{@md_builder.default_class} button is-warning preview_md") do
                     'Preview'
                   end
                 end

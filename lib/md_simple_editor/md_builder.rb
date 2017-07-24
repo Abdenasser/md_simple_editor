@@ -9,6 +9,6 @@ class MdBuilder
   end
 
   def default_class
-    "btn btn-default #{class_attr}"
+    "button is-small is-primary is-outlined #{class_attr}"
   end
 end
